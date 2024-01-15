@@ -1,0 +1,177 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+  *{
+    
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f3e6d8;
+  }
+  .navcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 40px;
+  }
+  .navmenue {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+  }
+  .navlink {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+  .w ,.b{
+    font-size: 3.0rem;
+    color: #FF900E;
+  }
+  /* end of header styling */
+  /* section hero style */
+
+  .herosection{
+    text-align: center;
+  }
+  .herosect-title{}
+  .herosect-p{
+    width: 800px;
+    margin: 0 auto;
+  }
+  .sw{
+    color: #FF900E;
+  }
+  .herosect-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .herosect-banner{
+        max-width: 1200px;
+        max-height: 600px;
+        margin: 0 auto;
+
+  }
+  /* quick list section styles */
+  .quicklist-sect{
+    display: flex;
+    max-width: 1050px;
+    margin: 40px auto;
+  }
+  .quicklist-pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 65%;
+    padding: 10px;
+  }
+  .quicklist{
+    margin: 160px auto;
+    width: 35%;
+    padding-left: 50px;
+  }
+  .quicklistheader {
+    font-size: 20px;
+  }
+  .quicklisthedcolor {
+    color: #727272;
+  }
+  .featurescolor {
+    color: #FF900E;
+  }
+  /* ends quick list section */
+  /* features section */
+
+  .tenyearsdiv {
+    padding-top:5px;
+    text-align: center;    
+    width: 180px;
+    height: 100px;
+    background: #FF900E;
+    position: relative;
+    margin-top: -130px;
+    margin-left: -100px;
+    border-radius: 10px 10px;
+  }
+  .features-section {
+    display: flex;
+  }
+  .featuresdiv {
+    
+    padding-right: 50px;
+  }
+  .featurespic {
+    width: 700px;
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+   .featuresheader, .featurespa {
+    background: #FF900E;
+    color: white;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0px;
+  }
+ .features-section {
+    max-width: 1050px;
+    margin: 50px auto;
+ }
+ .feature-img {
+    border-radius: 7px;
+    max-width: 450px;
+    max-height: 650px;
+ }
+ .factlogcontainer {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+ }
+ .fact {
+    max-width: 1100px;
+    margin: 50px auto;
+    align-items: center;
+ }
+ .factlogo {
+    max-width: 130px;
+    max-height: 250px;
+    border: 2px solid #FF900E;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+ }
+ .logotitle {
+    font-size: 25px;
+    margin: 0px;
+ }
+ .logopara {
+    margin: 0px;
+ }
+ /* sponsor section */
+ .sponsors{
+    max-width: 1150px;
+    text-align: center;
+ }
+ .splogocontainer {
+    display: flex;
+    gap: 67px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+ }
+
+ /* footer section */
+ .footersect {
+    margin-top: 70px;
+    text-align: center;
+ }
